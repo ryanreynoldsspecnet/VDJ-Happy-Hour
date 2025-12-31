@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="VDJ Happy Hour/VDJ Happy Hour.vcxproj" />
+</Solution>
