@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="VDJ Happy Hour/VDJ Happy Hour.vcxproj" />
+  <Project Path="VDJ Happy Hour/VDJ Happy Hour.vcxproj" Id="9a795648-a8b2-408a-b7d8-19313f833e04" />
 </Solution>

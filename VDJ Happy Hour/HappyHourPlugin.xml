@@ -1,0 +1,56 @@
+<Skin name="HappyHourDsp" version="8" width="300" height="180">
+  <Copyright>SpecNet</Copyright>
+
+  <paint>
+    <pos x="0" y="0"/>
+    <size width="300" height="180"/>
+    <color value="#1E1E1E"/>
+  </paint>
+
+  <textzone>
+    <pos x="12" y="12"/>
+    <size width="276" height="24"/>
+    <text font="arial" size="15" weight="bold" color="#FFFFFF" align="left" format="Happy Hour (DSP)"/>
+  </textzone>
+
+  <textzone>
+    <pos x="12" y="46"/>
+    <size width="276" height="20"/>
+    <text font="arial" size="12" color="#CCCCCC" align="left" format="Phase 1: parameters only"/>
+  </textzone>
+
+  <!-- Enabled toggle -->
+  <button>
+    <pos x="12" y="74"/>
+    <size width="120" height="26"/>
+    <text font="arial" size="12" color="#FFFFFF" align="center" format="Enabled"/>
+    <action>param_toggle 'Enabled'</action>
+    <state>param 'Enabled'</state>
+  </button>
+
+  <!-- Duck level -->
+  <textzone>
+    <pos x="12" y="110"/>
+    <size width="90" height="18"/>
+    <text font="arial" size="12" color="#FFFFFF" align="left" format="Duck"/>
+  </textzone>
+  <slider>
+    <pos x="90" y="110"/>
+    <size width="198" height="18"/>
+    <value>param 'Duck level'</value>
+    <action>param_set 'Duck level' get_sliderpos</action>
+  </slider>
+
+  <!-- Fade time -->
+  <textzone>
+    <pos x="12" y="136"/>
+    <size width="90" height="18"/>
+    <text font="arial" size="12" color="#FFFFFF" align="left" format="Fade"/>
+  </textzone>
+  <slider>
+    <pos x="90" y="136"/>
+    <size width="198" height="18"/>
+    <value>param 'Fade time'</value>
+    <action>param_set 'Fade time' get_sliderpos</action>
+  </slider>
+</Skin>
